@@ -1,0 +1,18 @@
+{
+  "name": "comments-email",
+  "version": "1.0.0",
+  "description": "Sends email when insert performed on Comments API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Cory Alvernaz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.1",
+    "title-case": "^2.1.1"
+  }
+}
